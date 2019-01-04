@@ -1,0 +1,23 @@
+//main: main.scss
+
+.presentation{
+  background-color: white;
+  height: 30vh;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2vw;
+  border: 6px solid #78797C;
+  .left{
+    width: 20vw;
+    height: 100%;
+    background-image: url(./picture/neiiko.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .right{
+    width: 80vw;
+    height: 100%;
+    padding:0 2vw;
+  }
+}
